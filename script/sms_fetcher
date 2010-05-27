@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+require File.dirname(__FILE__) + '/../config/environment.rb'
+
+class SmsFetcherDaemon < Daemon::Base
+  
+  @config = YAML.load_file("#{RAILS_ROOT}/config/sms.yml")
+  @config = @config[RAILS_ENV].to_options
+  
+  @sleep_time = @config.delete(:sleep_time) || 60
+  def self.start
+    puts "Starting SmsFetcherDaemon"
+    @fetcher = Fetcher.create({:receiver => MailProcessor}.merge(@config))
+
+    loop do
+      @fetcher.fetch
+      sleep(@sleep_time)
+    end
+  end
+  
+  def self.stop
+    puts "Stopping SmsFetcherDaemon"
+  end
+  
+end
+
+SmsFetcherDaemon.daemonize

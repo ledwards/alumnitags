@@ -1,0 +1,23 @@
+= AlumniTags
+
+AlumniTags is an application I wrote in a weekend in response to an alumni brainstorming session at Olin College of Engineering. Alumni wanted to be notified when college development and recruiting were visiting their area or place of work, or had information relevant to them, but didn't want to be inundated with e-mail from the staff. The ratio of relevant information to total information was very small. This could be solved by making hundreds of mailing lists, one for each city, employer, and field of work, but this solution is unmanageable. We wanted a way that alumni could control their own interests and staff could easily find lists of alumni interests.
+
+AlumniTags is a web-based service that allows users to "tag" their own e-mail addresses with words that describe the types of e-mail they want to receive, for example "Boston", "iRobot", "robotics", and "mechanical engineering." When staff is visiting a Boston-area healthcare company called Athena, they could send an e-mail to boston@alumnitags.olin.edu, healthcare@alumnitags.olin.edu, and athenahealth@alumnitags.olin.edu and have instant distribution to alumni who are interested in that content.
+
+AlumniTags requires a background process, sms_fetcher, which periodically checks e-mail sent to the configured mail server (ie: alumnitags.com) and forwards the e-mail to every user with matching tags.
+
+== How to Use
+
+Download the source on a computer running Rails 2.3.2. Run the background sms_fetcher process with
+
+  ruby script/sms_fetcher
+
+And the rails application with
+
+  ruby script/server
+
+== TODO
+
+ * User models with authentication, so users can only modify their own records
+ * Upgrade to Rails 3
+ * Test coverage

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/alumnitags/!svn/ver/4/alumnitags/trunk/vendor/plugins/fetcher/generators/fetcher_daemon
+END
+USAGE
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/alumnitags/!svn/ver/4/alumnitags/trunk/vendor/plugins/fetcher/generators/fetcher_daemon/USAGE
+END
+fetcher_daemon_generator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/alumnitags/!svn/ver/4/alumnitags/trunk/vendor/plugins/fetcher/generators/fetcher_daemon/fetcher_daemon_generator.rb
+END

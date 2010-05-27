@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/alumnitags/!svn/ver/4/alumnitags/trunk/app/models
+END
+alumni_mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/alumnitags/!svn/ver/5/alumnitags/trunk/app/models/alumni_mailer.rb
+END
+mail_processor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/alumnitags/!svn/ver/5/alumnitags/trunk/app/models/mail_processor.rb
+END
+contact.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/alumnitags/!svn/ver/5/alumnitags/trunk/app/models/contact.rb
+END

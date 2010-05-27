@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/alumnitags/!svn/ver/4/alumnitags/trunk/vendor/plugins/fetcher/lib/fetcher
+END
+pop.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/alumnitags/!svn/ver/4/alumnitags/trunk/vendor/plugins/fetcher/lib/fetcher/pop.rb
+END
+imap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/alumnitags/!svn/ver/4/alumnitags/trunk/vendor/plugins/fetcher/lib/fetcher/imap.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/alumnitags/!svn/ver/4/alumnitags/trunk/vendor/plugins/fetcher/lib/fetcher/base.rb
+END

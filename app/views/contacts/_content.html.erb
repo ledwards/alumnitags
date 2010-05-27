@@ -1,0 +1,40 @@
+<p>
+  <b>Last name:</b>
+  <%=h @contact.last_name %>
+</p>
+
+<p>
+  <b>First name:</b>
+  <%=h @contact.first_name %>
+</p>
+
+<p>
+  <b>Class Year:</b>
+  <%=h @contact.class_year %>
+</p>
+
+<p>
+  <b>E-Mail:</b>
+  <%=h @contact.email %>
+</p>
+
+<p>
+  <b>Phone Number:</b>
+  <%=h @contact.phone_number %>
+</p>
+
+<p>
+	<b>Tags</b>
+	<%=h @contact.tag_list %>
+</p>
+
+<div>
+	<%= 
+		if contact.tags.blank? 
+			"" 
+		else 
+			"(" + contact.tags.collect{|tag| tag.name}.join(", ") + ")" 
+		end
+	%> 
+	<%= link_to_function("Edit Tags", "Element.toggle($('#{form_id}'))") %> 
+</div> 

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/alumnitags/!svn/ver/4/alumnitags/trunk/db/migrate
+END
+20090518042600_create_contacts.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/alumnitags/!svn/ver/4/alumnitags/trunk/db/migrate/20090518042600_create_contacts.rb
+END
+20090518044119_acts_as_taggable_migration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/alumnitags/!svn/ver/4/alumnitags/trunk/db/migrate/20090518044119_acts_as_taggable_migration.rb
+END

@@ -1,0 +1,129 @@
+9
+
+dir
+4
+http://ledwards@alumnitags.svn.beanstalkapp.com/alumnitags/alumnitags/trunk
+http://ledwards@alumnitags.svn.beanstalkapp.com/alumnitags
+
+
+
+2009-05-21T04:21:35.611240Z
+4
+ledwards
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+44bc32fd-b0bd-4ff7-b99c-8485e6e398b4
+
+test
+dir
+
+app
+dir
+
+tmp
+dir
+
+log
+dir
+
+Rakefile
+file
+
+
+
+
+2009-05-21T04:24:14.000000Z
+17f2f134da4cd31ea095d5868ca89e86
+2009-05-21T04:21:35.611240Z
+4
+ledwards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+307
+
+script
+dir
+
+config
+dir
+
+db
+dir
+
+doc
+dir
+
+lib
+dir
+
+vendor
+dir
+
+README
+file
+
+
+
+
+2009-05-21T04:24:14.000000Z
+a58e68a7599c976f071d5b9c6fa67fb3
+2009-05-21T04:21:35.611240Z
+4
+ledwards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10011
+
+public
+dir
+

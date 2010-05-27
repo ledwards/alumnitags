@@ -1,0 +1,18 @@
+development:
+  type: pop
+  server: mail.swccgonline.com
+  username: alumnitags+swccgonline.com
+  password: password
+  sleep_time: 10
+  
+test:
+  type: pop
+  server: localhost
+  username: username
+  password: password
+  
+production:
+  type: pop
+  server: localhost
+  username: username
+  password: password

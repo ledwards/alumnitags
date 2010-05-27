@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/alumnitags/!svn/ver/4/alumnitags/trunk/config/environments
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/alumnitags/!svn/ver/4/alumnitags/trunk/config/environments/test.rb
+END
+development.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/alumnitags/!svn/ver/4/alumnitags/trunk/config/environments/development.rb
+END
+production.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/alumnitags/!svn/ver/4/alumnitags/trunk/config/environments/production.rb
+END

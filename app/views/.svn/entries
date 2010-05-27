@@ -1,0 +1,37 @@
+9
+
+dir
+4
+http://ledwards@alumnitags.svn.beanstalkapp.com/alumnitags/alumnitags/trunk/app/views
+http://ledwards@alumnitags.svn.beanstalkapp.com/alumnitags
+
+
+
+2009-05-21T04:21:35.611240Z
+4
+ledwards
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+44bc32fd-b0bd-4ff7-b99c-8485e6e398b4
+
+layouts
+dir
+
+alumni_mailer
+dir
+
+contacts
+dir
+
